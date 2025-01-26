@@ -40,7 +40,7 @@ const Paste = () => {
         onChange={(e) => setSearchTerm(e.target.value)}
       /> */}
       <input
-  className="w-full sm:w-[90%] lg:w-[60%] mx-auto mt-5 p-3 pl-4 rounded-lg border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+  className="w-full sm:w-[90%] md:w-[75%] lg:w-[60%] xl:w-[50%] mx-auto mt-5 p-3 pl-4 rounded-lg border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
   type="search"
   placeholder="Search here..."
   value={searchTerm}
