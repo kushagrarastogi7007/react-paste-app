@@ -33,7 +33,7 @@ const Paste = () => {
   return (
     <div>
       <input
-        className="w-full max-w-xl ml-[10%] sm:ml-0 mt-5 p-3 pl-4 rounded-lg border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 sm:max-w-full sm:p-2"
+        className="max-w-xl ml-[10%] mt-5 p-3 pl-4 rounded-lg border border-gray-300 shadow-sm w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
         type="search"
         placeholder="Search here..."
         value={searchTerm}
